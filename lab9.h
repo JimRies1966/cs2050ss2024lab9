@@ -10,7 +10,7 @@ struct _Computer
 	char	sCompany[MAXSTRING];	// Manufacturing company (e.g., Dell)
 	char	sModel[MAXSTRING];		// (e.g., "XPS13")
 	float	fltClockSpeed;			// Clock speed in HZ
-	int		iDisk;					// Disk size in bytes
+	long	iDisk;					// Disk size in bytes
 	int		iMemory;				// Memory size in bytes
 };
 typedef struct _Computer Computer;
